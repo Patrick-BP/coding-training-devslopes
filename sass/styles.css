@@ -1,0 +1,21 @@
+body {
+  background-color: #e6f2ff; }
+
+section {
+  background: #cc66ff;
+  color: #333333;
+  width: 780px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 7px; }
+
+.thumb1 {
+  height: 120px;
+  width: 120px;
+  -wekit-box-radius: 10%;
+  -moz-box-radius: 10%;
+  -ms-box-radius: 10%;
+  background-color: #333333;
+  color: #e6f2ff; }
+
+/*# sourceMappingURL=styles.css.map */

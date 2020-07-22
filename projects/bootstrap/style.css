@@ -1,0 +1,22 @@
+.container{
+    /* background-color: blue; */
+    /* height: 5rem; */
+}
+.row{
+    /* background-color: brown; */
+    /* height: 4.7rem; */
+}
+[class*="col-"]{
+    /* background-color:#00C3AA; */
+    /* height: 4.2rem; */
+    /* border: 2px solid  rgba(0, 0, 0, 0.3); */
+}
+.ourbtn{
+    background-color: brown;
+    color: cornsilk;
+    display: block;
+    margin: auto;
+}
+.ourbtnblock{
+    margin-top: 20px;
+}
