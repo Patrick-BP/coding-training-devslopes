@@ -1,0 +1,30 @@
+//Variables
+$brand-main: #6600cc
+$brand-sub: #cc66ff
+$brand-dark: #333333
+$brand-light: #e6f2ff
+//Mixins
+=shaping($height, $width, $rad, $bg, $color)
+    height: $height
+    width: $width
+    -wekit-box-radius: $rad
+    -moz-box-radius: $rad
+    -ms-box-radius: $rad
+    background-color: $bg
+    color: $color
+
+//Styles
+
+body
+    background-color: $brand-light
+
+section
+    background: $brand-sub
+    color: $brand-dark
+    width: 780px
+    margin: auto
+    padding: 20px
+    border-radius: 7px
+
+.thumb1
+    +shaping(120px, 120px, 10%, $brand-dark, $brand-light)
