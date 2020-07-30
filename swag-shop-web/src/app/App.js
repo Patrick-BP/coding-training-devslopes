@@ -1,12 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HttpService from '../services/http-service';
 
-function App() {
+
+
+const http = new HttpService();
+
+class App extends Component{
+  constructor(props){
+    super(props);
+    http.getProducts();
+
+  }
+
+
+render() {
   return (
-    <div className="App">
+    <div className=" App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h2>Welcome to the Swag Shop</h2>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -22,5 +36,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
